@@ -14,4 +14,14 @@ Linear Regression is a relatively simple method that is extremely widely-used. I
 
 Have understood and implemented the Linera regression by using a concept of minimizing the loss and maximizing the likelihood.
 
-![img_1.png](img_1.png)
+![img.png](ML_DL_Challenge/Day_1/img.png)
+
+---
+### Day2
+
+Gradient descent is an optimization algorithm used to minimize some function by iteratively moving in the direction of steepest descent as defined by the negative of the gradient. In machine learning, we use gradient descent to update the parameters of our model.
+I have implementated a simple gradient descent to understand the behavior based on different learning rates and momentum
+
+![img.png](ML_DL_Challenge/Day_2/img_1.png) 
+![img.png](ML_DL_Challenge/Day_2/img_2.png)
+![img.png](ML_DL_Challenge/Day_2/Learning_rate.png)
