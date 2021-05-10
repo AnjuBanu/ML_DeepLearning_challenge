@@ -45,3 +45,17 @@ Classifier is a supervised learning algorithm thats attemps to identify an obser
 I have understood the model structure and parameters estimiation for all these algorithms and implemented them by training different datasets.
 
 ![img.png](ML_DL_Challenge/Day_4/code.png)
+
+---
+### Day 5
+
+A Discriminative model as we saw in previous post models the decision boundary between the classes. A Generative Model ‌explicitly models the actual distribution of each class. In final both of them is predicting the conditional probability P(Animal | Features). But Both models learn different probabilities. A Generative Model ‌learns the joint probability distribution p(x,y). It predicts the conditional probability with the help of Bayes Theorem. A Discriminative model ‌learns the conditional probability distribution p(y|x).
+
+I have gained an insight into Joint Probability vs Conditional Probability, Generative VS Discriminative Models and Naive bayes algorithm and compared it with discriminative models LDA and QDA.
+
+
+![img.png](ML_DL_Challenge/Day_5/code.png)
+![img.png](ML_DL_Challenge/Day_5/plot1.png)
+![img.png](ML_DL_Challenge/Day_5/plot2.png)
+![img.png](ML_DL_Challenge/Day_5/plot3.png)
+
