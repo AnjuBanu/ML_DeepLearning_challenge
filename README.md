@@ -59,3 +59,11 @@ I have gained an insight into Joint Probability vs Conditional Probability, Gene
 ![img.png](ML_DL_Challenge/Day_5/plot2.png)
 ![img.png](ML_DL_Challenge/Day_5/plot3.png)
 
+---
+### Day 6
+
+Decision Trees are a non-parametric supervised learning method used for classification and regression. Decision trees learn from data to approximate a sine curve with a set of if-then-else decision rules. The deeper the tree, the more complex the decision rules and the fitter the model. Decision tree builds classification or regression models in the form of a tree structure. Decision trees can handle both categorical and numerical data.
+
+I have demonstrated how to fit regression and decision trees and also gained deep understanding on Hyperparameters like Size Regulation, Minimum Reduction in RSS and Pruning (Pre and post) and other key factors like Entropy, Information gain, Impurity of a node and various algorithms likes ID3, CART, C4.5
+
+![img.png](ML_DL_Challenge/Day_6/code.png)
