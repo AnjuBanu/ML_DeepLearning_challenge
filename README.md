@@ -75,5 +75,5 @@ Tree Ensemble Bagging - Due to their high variance, decision trees often fail to
 
 For a given dataset created a bagging model which trains many learners on bootstrapped samples of the training data and aggregates the results into one final model and have also outlined the behaviour for different number of bootstraps each time fitting a decision tree regressor.
 
-![img.png](ML_DL_Challenge/Day_6/code.png)
-![img.png](ML_DL_Challenge/Day_6/plot.png)
+![img.png](ML_DL_Challenge/Day_7/code.png)
+![img.png](ML_DL_Challenge/Day_7/plot.png)
