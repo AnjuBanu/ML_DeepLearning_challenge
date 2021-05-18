@@ -67,3 +67,13 @@ Decision Trees are a non-parametric supervised learning method used for classifi
 I have demonstrated how to fit regression and decision trees and also gained deep understanding on Hyperparameters like Size Regulation, Minimum Reduction in RSS and Pruning (Pre and post) and other key factors like Entropy, Information gain, Impurity of a node and various algorithms likes ID3, CART, C4.5
 
 ![img.png](ML_DL_Challenge/Day_6/code.png)
+
+---
+### Day 7
+
+Tree Ensemble Bagging - Due to their high variance, decision trees often fail to reach a level of precision comparable to other predictive algorithms. Ensemble methods combine the output of multiple simple models, often called “learners”, in order to create a final model with lower variance. Bagging, short for bootstrap aggregating, combines the results of several learners trained on bootstrapped samples of the training data. The process of bagging is very simple yet often quite powerful.
+
+For a given dataset created a bagging model which trains many learners on bootstrapped samples of the training data and aggregates the results into one final model and have also outlined the behaviour for different number of bootstraps each time fitting a decision tree regressor.
+
+![img.png](ML_DL_Challenge/Day_6/code.png)
+![img.png](ML_DL_Challenge/Day_6/plot.png)
