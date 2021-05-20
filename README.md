@@ -77,3 +77,12 @@ For a given dataset created a bagging model which trains many learners on bootst
 
 ![img.png](ML_DL_Challenge/Day_7/code.png)
 ![img.png](ML_DL_Challenge/Day_7/plot.png)
+
+---
+### Day 8
+
+When we are learning Machine learning it is best to experiment with real world data and not artificial datasets. I have used "California housing price" dataset here and have explored the dataset in details and gained an understanding on framing the problem based on he required business objective and also perceived other notions like pipelining (Sequence of Data processing components), selection of performance measure line RMSE, MSE, downloading the data, getting a quick look of the data structure and simple creation of test and train dataset manually.
+
+![img.png](ML_DL_Challenge/Day_8/code.png)
+![img.png](ML_DL_Challenge/Day_8/plot_bin.png)
+![img.png](ML_DL_Challenge/Day_8/report.png)
