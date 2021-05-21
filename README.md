@@ -86,3 +86,14 @@ When we are learning Machine learning it is best to experiment with real world d
 ![img.png](ML_DL_Challenge/Day_8/code.png)
 ![img.png](ML_DL_Challenge/Day_8/plot_bin.png)
 ![img.png](ML_DL_Challenge/Day_8/report.png)
+
+---
+### Day 9
+
+The train-test split procedure is used to estimate the performance of machine learning algorithms when they are used to make predictions on data not used to train the model. It is a fast and easy procedure to perform, the results of which allow you to compare the performance of machine learning algorithms for your predictive modeling problem.
+
+It can be used for classification or regression problems and can be used for any supervised learning algorithm. I have performed various train-test split procedure like cyclic redundancy check, spli based on identifier column and also other methods like StratifiedShuffleSplit (skewed data) and train_test_split by using sklearn library and verified the proportion of test randomly picked matches with the proportion of actual dataset.
+
+![img.png](ML_DL_Challenge/Day_9/code.png)
+![img.png](ML_DL_Challenge/Day_9/comparison.png)
+![img.png](ML_DL_Challenge/Day_9/income_cat.png)
