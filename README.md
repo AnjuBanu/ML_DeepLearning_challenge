@@ -97,3 +97,16 @@ It can be used for classification or regression problems and can be used for any
 ![img.png](ML_DL_Challenge/Day_9/code.png)
 ![img.png](ML_DL_Challenge/Day_9/comparison.png)
 ![img.png](ML_DL_Challenge/Day_9/income_cat.png)
+
+---
+### Day 10
+
+Data visualization is the representation of data or information in a graph, chart, or other visual format. It communicates relationships of the data with images. This is important because it allows trends and patterns to be more easily seen and visual summary of information makes it easier to identify patterns and trends than looking through thousands of rows on a spreadsheet. It’s the way the human brain works.
+
+The goal is to go into little more depth and I have tried to discover and visualize the data to gain insight. Visualized the geographical data based on different attributes by spotting the patterns. Also Verified the correlation between the attributes and transformed them to get better insight.
+
+![img.png](ML_DL_Challenge/Day_10/code.png)
+![img.png](ML_DL_Challenge/Day_10/img1.png)
+![img.png](ML_DL_Challenge/Day_10/img2.png)
+![img.png](ML_DL_Challenge/Day_10/img3.png)
+![img.png](ML_DL_Challenge/Day_10/corr.png)
