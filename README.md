@@ -110,3 +110,13 @@ The goal is to go into little more depth and I have tried to discover and visual
 ![img.png](ML_DL_Challenge/Day_10/img2.png)
 ![img.png](ML_DL_Challenge/Day_10/img3.png)
 ![img.png](ML_DL_Challenge/Day_10/corr.png)
+
+---
+### Day 11
+
+Data cleansing or data cleaning is the process of detecting and correcting corrupt or inaccurate records from a record set, table, or database and refers to identifying incomplete, incorrect, inaccurate or irrelevant parts of the data and then replacing, modifying, or deleting the dirty or coarse data.
+
+In order to really seek to understanding on Data cleasing, have performed various activities like performing data cleaning manually and also by using libraries. Have understood the design principles like "Estimators", "Transformers" and "Predictors". Performed various encoding techniques on numerical and Categorical attributes and executed a simple pipeline for tranformation of attributes.
+
+![img.png](ML_DL_Challenge/Day_11/code1.png)
+![img.png](ML_DL_Challenge/Day_11/code2.png)
