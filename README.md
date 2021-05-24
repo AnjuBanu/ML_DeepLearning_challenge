@@ -120,3 +120,13 @@ In order to really seek to understanding on Data cleasing, have performed variou
 
 ![img.png](ML_DL_Challenge/Day_11/code1.png)
 ![img.png](ML_DL_Challenge/Day_11/code2.png)
+
+---
+### Day 12
+
+For any given machine learning problem, numerous algorithms can be applied and multiple models can be generated. Having a wealth of options is good, but deciding on which model to implement in production is crucial. Though we have a number of performance metrics to evaluate a model, it’s not wise to implement every algorithm for every problem. This requires a lot of time and a lot of work. So it’s important to know how to select the right algorithm for a particular task.
+
+By looking at the factors of the dataset, I have select 3 different models and refined my selection based on accuracy scores. I have also understood the various techniques to fine tune the model like "Grid search" and "Randomized Search" and identified the best hyper parameter tuning parameters and used the final model to evaluate the test set.
+
+![img.png](ML_DL_Challenge/Day_12/code1.png)
+![img.png](ML_DL_Challenge/Day_12/code2.png)
