@@ -130,3 +130,12 @@ By looking at the factors of the dataset, I have select 3 different models and r
 
 ![img.png](ML_DL_Challenge/Day_12/code1.png)
 ![img.png](ML_DL_Challenge/Day_12/code2.png)
+
+---
+### Day 13
+
+Classification is the process of recognizing, understanding, and grouping ideas and objects into preset categories or “sub-populations.” Using pre-categorized training datasets, machine learning programs use a variety of algorithms to classify future datasets into categories. Classification algorithms in machine learning use input training data to predict the likelihood that subsequent data will fall into one of the predetermined categories.
+
+I have achieved understanding on various helper function and performed a simple Binary Image classification by using some simple classifiers like SGD and measured accuracy using cross validation technique and also made aware that impact of skewed data on accuracy performance measure.
+
+![img.png](ML_DL_Challenge/Day_13/code.png)
