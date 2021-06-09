@@ -139,3 +139,17 @@ Classification is the process of recognizing, understanding, and grouping ideas 
 I have achieved understanding on various helper function and performed a simple Binary Image classification by using some simple classifiers like SGD and measured accuracy using cross validation technique and also made aware that impact of skewed data on accuracy performance measure.
 
 ![img.png](ML_DL_Challenge/Day_13/code.png)
+
+---
+### Day 14
+
+In the field of machine learning and specifically the problem of statistical classification, a confusion matrix, also known as an error matrix, is a specific table layout that allows visualization of the performance of an algorithm. The extended ersion of the confusion matrix are classification measures which help in better understanding and analysis of model performance.
+
+Using sklearn library have understood and implemented key learnings like precision, recall, F1 score, sensitivity, specificity etc. which are helpful in deciding the right model. Have also gained an insight on the precision various plots like precision curve at all classification threshold and ROC curve. Also compared different ROC curves to understand how different models are capable of distinguishing between classes.
+
+![img.png](ML_DL_Challenge/Day_14/code1.png)
+![img.png](ML_DL_Challenge/Day_14/code2.png)
+![img.png](ML_DL_Challenge/Day_14/PreRec_theshold.png)
+![img.png](ML_DL_Challenge/Day_14/PreVsRec.png)
+![img.png](ML_DL_Challenge/Day_14/roc1.png)
+![img.png](ML_DL_Challenge/Day_14/roc_random.png)
