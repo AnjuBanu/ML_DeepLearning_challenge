@@ -153,3 +153,15 @@ Using sklearn library have understood and implemented key learnings like precisi
 ![img.png](ML_DL_Challenge/Day_14/PreVsRec.png)
 ![img.png](ML_DL_Challenge/Day_14/roc1.png)
 ![img.png](ML_DL_Challenge/Day_14/roc_random.png)
+
+
+---
+### Day 15
+
+In machine learning, multiclass or multinomial classification is the problem of classifying instances into one of three or more classes (classifying instances into one of two classes is called binary classification).
+
+Have performed multiclass classification using various algotithm and used confusion matrix to summarise the performance of classification and peformed improvement in the performance by performing scaling on train data.
+
+![img.png](ML_DL_Challenge/Day_15/code.png)
+![img.png](ML_DL_Challenge/Day_15/conf_mx.png)
+![img.png](ML_DL_Challenge/Day_15/norm_conf_mx.png)
