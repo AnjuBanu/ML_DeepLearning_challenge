@@ -165,3 +165,12 @@ Have performed multiclass classification using various algotithm and used confus
 ![img.png](ML_DL_Challenge/Day_15/code.png)
 ![img.png](ML_DL_Challenge/Day_15/conf_mx.png)
 ![img.png](ML_DL_Challenge/Day_15/norm_conf_mx.png)
+
+---
+### Day 16
+
+Multiclass classification is used when there are three or more classes and the data we want to classify belongs exclusively to one of those classes, e.g. to classify if a semaphore on an image is red, yellow or green. Multilabel classification support can be added to any classifier with Multioutput Classifier. This strategy consists of fitting one classifier per target. This allows multiple target variable classifications.
+
+![img.png](ML_DL_Challenge/Day_16/code.png)
+![img.png](ML_DL_Challenge/Day_16/noise.png)
+![img.png](ML_DL_Challenge/Day_16/noNoise.png)
