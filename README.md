@@ -174,3 +174,19 @@ Multiclass classification is used when there are three or more classes and the d
 ![img.png](ML_DL_Challenge/Day_16/code.png)
 ![img.png](ML_DL_Challenge/Day_16/noise.png)
 ![img.png](ML_DL_Challenge/Day_16/noNoise.png)
+
+
+---
+### Day 17
+
+Day17 ML and Deep learning
+
+In statistics, linear regression is a linear approach to modelling the relationship between a scalar response and one or more explanatory variables. It is one of the easiest topics in data science. With linear regression, you can get the correlation between two sets of variables, the independent variable(s) and the dependent variable.
+
+I have familiarize myself with the math used by the model and interpret some common variables in the regression.
+
+![img.png](ML_DL_Challenge/Day_17/code1.png)
+![img.png](ML_DL_Challenge/Day_17/code2.png)
+![img.png](ML_DL_Challenge/Day_17/linearPlot.png)
+![img.png](ML_DL_Challenge/Day_17/bestfitLine.png)
+
