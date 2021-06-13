@@ -179,8 +179,6 @@ Multiclass classification is used when there are three or more classes and the d
 ---
 ### Day 17
 
-Day17 ML and Deep learning
-
 In statistics, linear regression is a linear approach to modelling the relationship between a scalar response and one or more explanatory variables. It is one of the easiest topics in data science. With linear regression, you can get the correlation between two sets of variables, the independent variable(s) and the dependent variable.
 
 I have familiarize myself with the math used by the model and interpret some common variables in the regression.
@@ -190,3 +188,15 @@ I have familiarize myself with the math used by the model and interpret some com
 ![img.png](ML_DL_Challenge/Day_17/linearPlot.png)
 ![img.png](ML_DL_Challenge/Day_17/bestfitLine.png)
 
+
+---
+### Day 18
+
+Optimization is a big part of machine learning. Almost every machine learning algorithm has an optimization algorithm at it’s core. Gradient descent is an optimization algorithm used to find the values of parameters (coefficients) of a function (f) that minimizes a cost function (cost). There are three popular types of gradient descent that mainly differ in the amount of data they use: "Batch Gradient Descent", "Stochastic Gradient Descent" and "Mini-Batch Gradient Descent"
+
+I have implemented a batch and stochastic gradience descent to understand the impact of learning rate and also understand the match behind it.
+
+![img.png](ML_DL_Challenge/Day_18/code1.png)
+![img.png](ML_DL_Challenge/Day_18/code2.png)
+![img.png](ML_DL_Challenge/Day_18/batch.png)
+![img.png](ML_DL_Challenge/Day_18/stochastic.png)
