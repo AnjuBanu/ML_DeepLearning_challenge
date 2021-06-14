@@ -200,3 +200,17 @@ I have implemented a batch and stochastic gradience descent to understand the im
 ![img.png](ML_DL_Challenge/Day_18/code2.png)
 ![img.png](ML_DL_Challenge/Day_18/batch.png)
 ![img.png](ML_DL_Challenge/Day_18/stochastic.png)
+
+
+### Day 19
+
+We have seen the Batch Gradient Descent in the previous post. We have also seen the Stochastic Gradient Descent. Batch Gradient Descent can be used for smoother curves. SGD can be used when the dataset is large.	Mini batch is used to tackle this problem faces in Batch and Stochastic, a mixture of Batch Gradient Descent and SGD is used. I have created a plot which gives a view Gradient Descent paths in parameter space
+
+Which one to use? well, all the three variants we saw have their advantages as well as disadvantages. It’s not like the one variant is used frequently over all the others. Every variant is used uniformly depending on the situation and the context of the problem.
+
+Next topic is Polynomial regression technique which is used by the professionals to predict the outcome. It is defined as the relationship between the independent and dependent variables when the dependent variable is related to the independent variable having an nth degree. I have converted the original features into their higher order terms we will use the PolynomialFeatures class provided by scikit-learn. Next, we train the model using Linear Regression.
+
+![img.png](ML_DL_Challenge/Day_19/code1.png)
+![img.png](ML_DL_Challenge/Day_19/GD_flow.png)
+![img.png](ML_DL_Challenge/Day_19/code2.png)
+![img.png](ML_DL_Challenge/Day_19/ploy_plot.png)
