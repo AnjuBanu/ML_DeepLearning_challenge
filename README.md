@@ -201,7 +201,7 @@ I have implemented a batch and stochastic gradience descent to understand the im
 ![img.png](ML_DL_Challenge/Day_18/batch.png)
 ![img.png](ML_DL_Challenge/Day_18/stochastic.png)
 
-
+---
 ### Day 19
 
 We have seen the Batch Gradient Descent in the previous post. We have also seen the Stochastic Gradient Descent. Batch Gradient Descent can be used for smoother curves. SGD can be used when the dataset is large.	Mini batch is used to tackle this problem faces in Batch and Stochastic, a mixture of Batch Gradient Descent and SGD is used. I have created a plot which gives a view Gradient Descent paths in parameter space
@@ -214,3 +214,18 @@ Next topic is Polynomial regression technique which is used by the professionals
 ![img.png](ML_DL_Challenge/Day_19/GD_flow.png)
 ![img.png](ML_DL_Challenge/Day_19/code2.png)
 ![img.png](ML_DL_Challenge/Day_19/ploy_plot.png)
+
+---
+### Day 20
+
+Polynomial provides the best approximation of the relationship between the dependent and independent variable. A Broad range of function can be fit under it. Polynomial basically fits a wide range of curvature. To get a polynomial equation, we have to transform the linear regression by adding power to the independent variable, that is by adding the degree to the independent variables which will turn a linear regression model into a curve. Implemented my understanding by plotting the best fit line for various degress.
+
+The cause of poor performance in machine learning is either due to overfitting or underfitting the data. Further down to interpretate the model accomplishment, have created a learning curve by plotting model performance over experience or time for both train and test data set. This is performed using different models to illustrate, how different models impact the performance. 
+
+Overfitting: Good performance on the training data, poor generliazation to other data.
+Underfitting: Poor performance on the training data and poor generalization to other data 
+
+![img.png](ML_DL_Challenge/Day_20/code1.png)
+![img.png](ML_DL_Challenge/Day_20/poly_degree.png)
+![img.png](ML_DL_Challenge/Day_20/code2.png)
+![img.png](ML_DL_Challenge/Day_20/learning_curve.png)
