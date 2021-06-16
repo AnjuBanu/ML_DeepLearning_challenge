@@ -229,3 +229,15 @@ Underfitting: Poor performance on the training data and poor generalization to o
 ![img.png](ML_DL_Challenge/Day_20/poly_degree.png)
 ![img.png](ML_DL_Challenge/Day_20/code2.png)
 ![img.png](ML_DL_Challenge/Day_20/learning_curve.png)
+
+---
+### Day 21
+Regularization is a form of regression, that constrains/ regularizes or shrinks the coefficient estimates towards zero. In other words, this technique discourages learning a more complex or flexible model, so as to avoid the risk of overfitting. There are multiple different forms of constraints that we could use to regularize. The three most popular ones are Ridge Regression, Lasso, and Elastic Net.
+
+An alternative approach is to train the model once for a large number of training epochs. During training, the model is evaluated on a holdout validation dataset after each epoch. If the performance of the model on the validation dataset starts to degrade (e.g. loss begins to increase or accuracy begins to decrease), then the training process is stopped.
+
+![img.png](ML_DL_Challenge/Day_21/code1.png)
+![img.png](ML_DL_Challenge/Day_21/ridge_lasso.png)
+![img.png](ML_DL_Challenge/Day_21/code2.png)
+![img.png](ML_DL_Challenge/Day_21/Early_stop.png)
+
