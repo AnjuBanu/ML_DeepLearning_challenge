@@ -241,3 +241,16 @@ An alternative approach is to train the model once for a large number of trainin
 ![img.png](ML_DL_Challenge/Day_21/code2.png)
 ![img.png](ML_DL_Challenge/Day_21/Early_stop.png)
 
+
+---
+### Day 22
+Logistic regression is a statistical model that in its basic form uses a logistic function to model a binary dependent variable, although many more complex extensions exist. In regression analysis, logistic regression (or logit regression) is estimating the parameters of a logistic model (a form of binary regression).
+
+Softmax Regression is a generalization of logistic regression that we can use for multi-class classification (under the assumption that the classes are mutually exclusive). From the example provided it can be seen that the output a softmax function is equal to the number of classes. These outputs are indeed equal to the probabilities of each class and so they sum up to one. 
+
+![img.png](ML_DL_Challenge/Day_22/code1.png)
+![img.png](ML_DL_Challenge/Day_22/iris_virginica.png)
+![img.png](ML_DL_Challenge/Day_22/code2.png)
+![img.png](ML_DL_Challenge/Day_22/code3.png)
+![img.png](ML_DL_Challenge/Day_22/lg_contour.png)
+
