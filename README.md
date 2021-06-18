@@ -254,3 +254,14 @@ Softmax Regression is a generalization of logistic regression that we can use fo
 ![img.png](ML_DL_Challenge/Day_22/code3.png)
 ![img.png](ML_DL_Challenge/Day_22/lg_contour.png)
 
+---
+### Day 23
+
+A support vector machine (SVM) is a supervised machine learning model that uses classification algorithms for classification problems. Compared to newer algorithms like neural networks, they have two main advantages: higher speed and better performance with a limited number of samples. This makes the algorithm very suitable for text classification problems, where it’s common to have access to a dataset of at most a couple of thousands of tagged samples.
+
+The basics of Support Vector Machines and how it works is understood by implementing simple examples and understanding there impact on scaling and outliers.
+
+![img.png](ML_DL_Challenge/Day_23/code1.png)
+![img.png](ML_DL_Challenge/Day_23/code2.png)
+![img.png](ML_DL_Challenge/Day_23/code3.png)
+![img.png](ML_DL_Challenge/Day_23/img.png)
