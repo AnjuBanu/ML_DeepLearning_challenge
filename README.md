@@ -265,3 +265,15 @@ The basics of Support Vector Machines and how it works is understood by implemen
 ![img.png](ML_DL_Challenge/Day_23/code2.png)
 ![img.png](ML_DL_Challenge/Day_23/code3.png)
 ![img.png](ML_DL_Challenge/Day_23/img.png)
+
+---
+### Day 24
+
+In real-world tasks it is often difficult to determine the appropriate function that makes a training sample linearly separable in feature space, even if one happens to find a function that makes the training set linearly separable in feature space, it is difficult to conclude that the seemingly linear result is not due to overfitting.One way to alleviate this problem is to allow the support vector machine to make errors on some sample. Linearly separable then only our hyperplane is able to distinguish between them and if any outlier is introduced then it is not able to separate them. So these type of SVM is called as hard margin SVM and this loeads to over fitting. In real life scenario, we need an update so that our function may skip few outliers and be able to classify almost linearly separable points. For this reason we need soft margin.
+
+To handle different kind of data, SVM algorithms use different types of kernel functions. These functions can be different types. For example linear, nonlinear, polynomial, radial basis function (RBF), and sigmoid.
+
+![img.png](ML_DL_Challenge/Day_24/code1.png)
+![img.png](ML_DL_Challenge/Day_24/code2.png)
+![img.png](ML_DL_Challenge/Day_24/code3.png)
+![img.png](ML_DL_Challenge/Day_24/img.png)
