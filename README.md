@@ -277,3 +277,18 @@ To handle different kind of data, SVM algorithms use different types of kernel f
 ![img.png](ML_DL_Challenge/Day_24/code2.png)
 ![img.png](ML_DL_Challenge/Day_24/code3.png)
 ![img.png](ML_DL_Challenge/Day_24/img.png)
+
+---
+### Day 25
+
+In Support Vector machine non-linear datasets, Radial Basis Function (RBF) Kernel can be used as a savior. RBF kernels are the most generalized form of kernelization and is one of the most widely used kernels due to its similarity to the Gaussian distribution. 
+
+We all know that Support Vector Machines (SVM) are popularly and widely used for classification problems in machine learning. Support Vector Machine can also be used as a regression method, maintaining all the main features that characterize the algorithm (maximal margin). The Support Vector Regression (SVR) uses the same principles as the SVM for classification, with only a few minor differences. 
+
+![img.png](ML_DL_Challenge/Day_25/code1.png)
+![img.png](ML_DL_Challenge/Day_25/rbf.png)
+![img.png](ML_DL_Challenge/Day_25/code2.png)
+![img.png](ML_DL_Challenge/Day_25/code3.png)
+![img.png](ML_DL_Challenge/Day_25/svm_reg_lin.png)
+
+
