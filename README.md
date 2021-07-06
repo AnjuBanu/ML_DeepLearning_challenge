@@ -292,3 +292,19 @@ We all know that Support Vector Machines (SVM) are popularly and widely used for
 ![img.png](ML_DL_Challenge/Day_25/svm_reg_lin.png)
 
 
+
+---
+### Day 25
+
+A decision tree is a decision support tool that uses a tree-like model of decisions and their possible consequences, including chance event outcomes, resource costs, and utility. It is one way to display an algorithm that only contains conditional control statements. A popular way to solve this problem, especially if using an ID3 algorithm, is to use entropy and information gain. Decision trees can be a useful machine learning algorithm to pick up nonlinear interactions between variables in the data.
+
+To avoid overfitting the training data, ristrictions can be applied to the Decision Tree during training. Some of the important hyperparameters are min samples split, min samples leaf, max leaf nodes, max features
+
+![img.png](ML_DL_Challenge/Day_26/code1.png)
+![img.png](ML_DL_Challenge/Day_26/code1.png)
+![img.png](ML_DL_Challenge/Day_26/plot1.png)
+![img.png](ML_DL_Challenge/Day_26/plot2.png)
+
+
+
+
