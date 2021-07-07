@@ -305,6 +305,19 @@ To avoid overfitting the training data, ristrictions can be applied to the Decis
 ![img.png](ML_DL_Challenge/Day_26/plot1.png)
 ![img.png](ML_DL_Challenge/Day_26/plot2.png)
 
+---
+### Day 25
+
+Decision Tree is one of the most commonly used, practical approaches for supervised learning. It can also be used for Classification tasks. The decision of making strategic splits heavily affects a tree’s accuracy. The decision criteria is different for classification and regression trees.Decision trees regression normally use mean squared error (MSE) to decide to split a node in two or more sub-nodes. For each subset, it will calculate the MSE separately. The tree chooses the value with results in smallest MSE value.	
+
+Decision trees have an advantage that it is easy to understand, lesser data cleaning is required, non-linearity does not affect the model’s performance, however Over fitting is one of the most practical difficulty for decision tree models. This problem gets solved by setting constraints on model parameters and pruning. Small variations in the data might result in a completely different tree being generated. This is called variance, which needs to be lowered by methods like bagging and boosting.
+
+![img.png](ML_DL_Challenge/Day_27/code1.png)
+![img.png](ML_DL_Challenge/Day_27/code2.png)
+![img.png](ML_DL_Challenge/Day_27/plot.png)
+
+
+
 
 
 
