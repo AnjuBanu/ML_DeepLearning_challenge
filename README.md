@@ -294,7 +294,7 @@ We all know that Support Vector Machines (SVM) are popularly and widely used for
 
 
 ---
-### Day 25
+### Day 26
 
 A decision tree is a decision support tool that uses a tree-like model of decisions and their possible consequences, including chance event outcomes, resource costs, and utility. It is one way to display an algorithm that only contains conditional control statements. A popular way to solve this problem, especially if using an ID3 algorithm, is to use entropy and information gain. Decision trees can be a useful machine learning algorithm to pick up nonlinear interactions between variables in the data.
 
@@ -306,7 +306,7 @@ To avoid overfitting the training data, ristrictions can be applied to the Decis
 ![img.png](ML_DL_Challenge/Day_26/plot2.png)
 
 ---
-### Day 25
+### Day 27
 
 Decision Tree is one of the most commonly used, practical approaches for supervised learning. It can also be used for Classification tasks. The decision of making strategic splits heavily affects a tree’s accuracy. The decision criteria is different for classification and regression trees.Decision trees regression normally use mean squared error (MSE) to decide to split a node in two or more sub-nodes. For each subset, it will calculate the MSE separately. The tree chooses the value with results in smallest MSE value.	
 
@@ -317,6 +317,16 @@ Decision trees have an advantage that it is easy to understand, lesser data clea
 ![img.png](ML_DL_Challenge/Day_27/plot.png)
 
 
+---
+### Day 28
+
+Ensemble methods is a machine learning technique that combines several base models in order to produce one optimal predictive model. Ensemble methods can be divided into two groups: first one is Sequential ensemble methods where the base learners are generated sequentially (e.g. AdaBoost) and second one is Parallel ensemble methods where the base learners are generated in parallel (e.g. Random Forest).
+ 
+Bagging stands for bootstrap aggregation. One way to reduce the variance of an estimate is to average together multiple estimates. Bagging is an ensemble algorithm that fits multiple models on different subsets of a training dataset, then combines the predictions from all models. Random forest, is an extension of Bagging and like its name implies, consists of a large number of individual decision trees that operate as an ensemble. Each individual tree in the random forest spits out a class prediction and the class with the most votes. In classification, a hard voting ensemble involves summing the votes for crisp class labels from other models and predicting the class with the most votes. A soft voting ensemble involves summing the predicted probabilities for class labels and predicting the class label with the largest sum probability. For regression, a voting ensemble involves making a prediction that is the average of multiple other regression models.
+
+![img.png](ML_DL_Challenge/Day_28/code1.png)
+![img.png](ML_DL_Challenge/Day_28/code2.png)
+![img.png](ML_DL_Challenge/Day_28/plot.png)
 
 
 
