@@ -328,6 +328,14 @@ Bagging stands for bootstrap aggregation. One way to reduce the variance of an e
 ![img.png](ML_DL_Challenge/Day_28/code2.png)
 ![img.png](ML_DL_Challenge/Day_28/plot.png)
 
+---
+### Day 29
 
+One of the method of measuring the prediction error of random forests, boosted decision trees, and other machine learning models utilizing bootstrap aggregating (bagging). Bagging uses subsampling with replacement to create using only the trees that did not have training samples for the model to learn from. OOB error is the mean prediction error on each training sample in their bootstrap.
 
+Random forest also has differnt kinds of sampling techniques during baggin process which includes Random Subspace and Random Patches. The random subspace method is a technique used in order to introduce variation among the predictors in an ensemble model. This is done as decreasing the correlation between the predictors increases the performance of the ensemble model. The random subspace method is also known as feature or attribute bagging. When the random subspace method is used along with bagging or pasting it is known as the random patches method. Sampling features results in greater diversity among the predictors and this is the reason why the random subspace method and the random patches method are used.
+ 
 
+![img.png](ML_DL_Challenge/Day_29/code1.png)
+![img.png](ML_DL_Challenge/Day_29/code2.png)
+![img.png](ML_DL_Challenge/Day_29/plot.png)
