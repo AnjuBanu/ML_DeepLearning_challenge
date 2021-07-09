@@ -336,6 +336,6 @@ One of the method of measuring the prediction error of random forests, boosted d
 Random forest also has differnt kinds of sampling techniques during baggin process which includes Random Subspace and Random Patches. The random subspace method is a technique used in order to introduce variation among the predictors in an ensemble model. This is done as decreasing the correlation between the predictors increases the performance of the ensemble model. The random subspace method is also known as feature or attribute bagging. When the random subspace method is used along with bagging or pasting it is known as the random patches method. Sampling features results in greater diversity among the predictors and this is the reason why the random subspace method and the random patches method are used.
  
 
-![img.png](ML_DL_Challenge/Day_29/code1.png)
-![img.png](ML_DL_Challenge/Day_29/code2.png)
+![img.png](ML_DL_Challenge/Day_29/carbon.png)
+![img.png](ML_DL_Challenge/Day_29/carbon1.png)
 ![img.png](ML_DL_Challenge/Day_29/plot.png)
