@@ -339,3 +339,14 @@ Random forest also has differnt kinds of sampling techniques during baggin proce
 ![img.png](ML_DL_Challenge/Day_29/carbon.png)
 ![img.png](ML_DL_Challenge/Day_29/carbon1.png)
 ![img.png](ML_DL_Challenge/Day_29/plot.png)
+
+---
+### Day 30
+
+Adaboost is a type of ensemble technique, where a number of weak learners are combined together to form a strong learner. Here, usually, each weak learner is developed as decision stumps (A stump is a tree with just a single split and two terminal nodes) that are used to classify the observations. Adaboost increases the predictive accuracy by assigning weights to both observations at end of every tree and weights to every classifier.
+
+Just like AdaBoost, Gradient Boost also combines a no. of weak learners to form a strong learner. Here, the residual of the current classifier becomes the input for the next consecutive classifier on which the trees are built, and hence it is an additive model. By this method, we are slowly inching in the right direction towards better prediction
+
+![img.png](ML_DL_Challenge/Day_30/code1.png)
+![img.png](ML_DL_Challenge/Day_30/code2.png)
+![img.png](ML_DL_Challenge/Day_30/plot.png)
