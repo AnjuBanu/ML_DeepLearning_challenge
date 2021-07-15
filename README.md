@@ -350,3 +350,14 @@ Just like AdaBoost, Gradient Boost also combines a no. of weak learners to form 
 ![img.png](ML_DL_Challenge/Day_30/code1.png)
 ![img.png](ML_DL_Challenge/Day_30/code2.png)
 ![img.png](ML_DL_Challenge/Day_30/plot.png)
+
+---
+### Day 31
+
+Gradient boosting is an ensembling technique where several weak learners (regression trees) are combined to yield a powerful single model, in an iterative fashion. Early stopping support in Gradient Boosting enables us to find the least number of iterations which is sufficient to build a model that generalizes well to unseen data. When each additional stage of regression tree is added, the validation set is used to score the model. This is continued until the scores of the model in the last stages do not improve. After that the model is considered to have converged and further addition of stages is “stopped early”.
+
+XGBoost is one of the most popular and efficient implementations of the Gradient Boosted Trees algorithm, a supervised learning method that is based on function approximation by optimizing specific loss functions as well as applying several regularization techniques.
+
+![img.png](ML_DL_Challenge/Day_31/code1.png)
+![img.png](ML_DL_Challenge/Day_31/code2.png)
+![img.png](ML_DL_Challenge/Day_31/plot.png)
