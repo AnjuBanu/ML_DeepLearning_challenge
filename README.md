@@ -361,3 +361,27 @@ XGBoost is one of the most popular and efficient implementations of the Gradient
 ![img.png](ML_DL_Challenge/Day_31/code1.png)
 ![img.png](ML_DL_Challenge/Day_31/code2.png)
 ![img.png](ML_DL_Challenge/Day_31/plot.png)
+
+---
+### Day 32
+
+Stacking or Stacked Generalization is an ensemble machine learning algorithm. It uses a meta-learning algorithm to learn how to best combine the predictions from two or more base machine learning algorithms. The benefit of stacking is that it can harness the capabilities of a range of well-performing models on a classification or regression task and make predictions that have better performance than any single model in the ensemble.
+
+Dimensionality Reduction: Having a large number of dimensions in the feature space can mean that the volume of that space is very large. This can dramatically impact the performance of machine learning algorithms fit on data with many input features, generally referred to as the “curse of dimensionality”. This reduces the number of dimensions of the feature space, hence the name “dimensionality reduction.”
+
+To address nonlinear relationships within the data, we can turn to a class of methods known as manifold learning—a class of unsupervised estimators that seeks to describe datasets as low-dimensional manifolds embedded in high-dimensional spaces. Below are some of the intersting journals for reference:
+
+![img.png](ML_DL_Challenge/Day_32/code1.png)
+![img.png](ML_DL_Challenge/Day_32/code2.png)
+![img.png](ML_DL_Challenge/Day_32/plot.png)
+
+---
+### Day 33
+
+Principal Component Analysis (PCA) is by far the most popular dimensionality reduction algorithm. First it identifies the hyperplane that lies closest to the data, and then it projects the data onto it. By definition, the top PCs capture the dominant factors of heterogeneity in the data set. Thus, we can perform dimensionality reduction by restricting downstream analyses to the top PCs. This strategy is simple, highly effective and widely used throughout the data sciences
+
+How many of the top PCs should we retain for downstream analyses? The choice of the number of PCs d is a decision that is analogous to the choice of the number of features to use. Using more PCs will retain more data. Most practitioners will simply set d to a “reasonable” but arbitrary value, typically ranging from 10 to 50. This is often satisfactory as the later PCs explain so little variance that their inclusion or omission has no major effect.
+
+![img.png](ML_DL_Challenge/Day_33/code1.png)
+![img.png](ML_DL_Challenge/Day_33/code2.png)
+![img.png](ML_DL_Challenge/Day_33/plot.png)
