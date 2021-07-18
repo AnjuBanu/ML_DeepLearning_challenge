@@ -385,3 +385,18 @@ How many of the top PCs should we retain for downstream analyses? The choice of 
 ![img.png](ML_DL_Challenge/Day_33/code1.png)
 ![img.png](ML_DL_Challenge/Day_33/code2.png)
 ![img.png](ML_DL_Challenge/Day_33/plot.png)
+
+
+---
+### Day 34
+
+Once the dimensionality reduction is performed the training set takes up much less space by reducing the number of features and preserving the 95% of variance. So while most of the variance is preserved, the dataset is now less than some percentage less than its original size. It is also possible to decompress the reduced dataset back to original dimensions by applying the inverse transformation of the PCA projection. This will not give us back the original data, since the projection lost a bit of informationn (5% variance that was dropped), But it is still close to the original data. The mean squared distance between the original data and the reconstructed data (compressed and then decompressed) is called the reconstruction error.
+
+PCA might give you the best projection for some initial training data but it might become arbitrarily worse as time goes by and new data arrives with an "evolved" distribution. Random projections gives you a kind of probabilistic warranty against that situation. 
+
+One problem with the preceding implementations of PCA is that they require the whole training set to fit in memory in order for the algorithm to run. Fortunately,
+Incremental PCA (IPCA) algorithms have been developed: you can split the training set into mini-batches and feed an IPCA algorithm one mini-batch at a time. This is useful for large training sets, and also to apply PCA online (i.e., on the fly, as new instances arrive).
+
+![img.png](ML_DL_Challenge/Day_34/code1.png)
+![img.png](ML_DL_Challenge/Day_34/code2.png)
+![img.png](ML_DL_Challenge/Day_34/plot.png)
