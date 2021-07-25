@@ -400,3 +400,16 @@ Incremental PCA (IPCA) algorithms have been developed: you can split the trainin
 ![img.png](ML_DL_Challenge/Day_34/code1.png)
 ![img.png](ML_DL_Challenge/Day_34/code2.png)
 ![img.png](ML_DL_Challenge/Day_34/plot.png)
+
+
+---
+### Day 35
+
+
+The PCA transformations we described previously are linear transformations. The process of matrix decomposition into eigenvectors is a linear transformation. In other words, each principal component is a linear combination of the original wavelengths. Kernel PCA was developed in an effort to help with the classification of data whose decision boundaries are described by non-linear function. The idea is to go to a higher dimension space in which the decision boundary becomes linear.
+
+There are different ways to perform kernal PCA like Linear, poly, rbf, sigmoid, cosine, precomputed. The general approach to select an optimal kernel (either the type of kernel, or kernel parameters) in any kernel-based method is cross-validation. 
+
+![img.png](ML_DL_Challenge/Day_35/code1.png)
+![img.png](ML_DL_Challenge/Day_35/code2.png)
+![img.png](ML_DL_Challenge/Day_35/plot.png)
