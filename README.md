@@ -426,3 +426,16 @@ Multidimensional Scaling (MDS) reduces dimensionality while trying to preserve t
 
 ![img.png](ML_DL_Challenge/Day_36/code.png)
 ![img.png](ML_DL_Challenge/Day_36/plot.png)
+
+
+---
+### Day 37
+
+Unsupervised machine learning algorithms infer patterns from a dataset without reference to known, or labeled, outcomes. Unlike supervised machine learning, unsupervised machine learning methods cannot be directly applied to a regression or a classification problem because you have no idea what the values for the output data might be, making it impossible for you to train the algorithm the way you normally would. Unsupervised learning can instead be used to discover the underlying structure of the data.
+
+K-Means is one of the most popular "clustering" algorithms. K-means stores $k$ centroids that it uses to define clusters. A point is considered to be in a particular cluster if it is closer to that cluster's centroid than any other centroid. 
+
+![img.png](ML_DL_Challenge/Day_37/code1.png)
+![img.png](ML_DL_Challenge/Day_37/code2.png)
+![img.png](ML_DL_Challenge/Day_37/plot.png)
+
