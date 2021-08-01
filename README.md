@@ -439,3 +439,14 @@ K-Means is one of the most popular "clustering" algorithms. K-means stores $k$ c
 ![img.png](ML_DL_Challenge/Day_37/code2.png)
 ![img.png](ML_DL_Challenge/Day_37/plot.png)
 
+---
+### Day 38
+
+To process the learning data, the K-means algorithm in data mining starts with a first group of randomly selected centroids, which are used as the beginning points for every cluster, and then performs iterative (repetitive) calculations to optimize the positions of the centroids. It halts creating and optimizing clusters when either The centroids have stabilized — there is no change in their values because the clustering has been successful or the defined number of iterations has been achieved.
+
+The clusters formed using K-means are evaluated using metric called Inertia. Intuitively, inertia tells how far away the points within a cluster are. Therefore, a small of inertia is aimed for. The range of inertia’s value starts from zero and goes up.
+
+![img.png](ML_DL_Challenge/Day_38/code1.png)
+![img.png](ML_DL_Challenge/Day_38/code2.png)
+![img.png](ML_DL_Challenge/Day_38/plot1.png)
+![img.png](ML_DL_Challenge/Day_38/plot2.png)
