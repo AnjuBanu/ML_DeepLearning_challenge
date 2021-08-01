@@ -450,3 +450,16 @@ The clusters formed using K-means are evaluated using metric called Inertia. Int
 ![img.png](ML_DL_Challenge/Day_38/code2.png)
 ![img.png](ML_DL_Challenge/Day_38/plot1.png)
 ![img.png](ML_DL_Challenge/Day_38/plot2.png)
+
+
+---
+### Day 39
+
+Accelerated K-Means is the default for Sklearn. it considerably accelerates this algorithm by keeping track of the lower and upper bounds for the distances between instances and centroids. You can force Sklearn to use the original algorithm, although its unlikely to be needed.
+
+Instead of using the full dataset at each iteration, the algorithm is capable of using mini-batches, moving the centroid slightly at each iteration. This increases the speed of the algorithm by a factor of 3–4 typically. Especially important, it makes it possible to cluster huge datasets that do not fit in memory. One limitation is that its inertia is usually slightly worse, especially as clusters increase, however with many clusters the speed is much faster using mini-batch.up.
+
+
+![img.png](ML_DL_Challenge/Day_39/code1.png)
+![img.png](ML_DL_Challenge/Day_39/code2.png)
+![img.png](ML_DL_Challenge/Day_39/plot.png)
