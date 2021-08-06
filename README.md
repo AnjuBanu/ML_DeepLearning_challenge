@@ -463,3 +463,16 @@ Instead of using the full dataset at each iteration, the algorithm is capable of
 ![img.png](ML_DL_Challenge/Day_39/code1.png)
 ![img.png](ML_DL_Challenge/Day_39/code2.png)
 ![img.png](ML_DL_Challenge/Day_39/plot.png)
+
+
+---
+### Day 40
+
+Silhouette score is used to evaluate the quality of clusters created using clustering algorithms such as K-Means in terms of how well samples are clustered with other samples that are similar to each other. The Silhouette score is calculated for each sample of different clusters. To calculate the Silhouette score for each observation, the mean intra-cluster distance and mean nearest-cluster distance need to be found out for each observations belonging to all the clusters.
+
+Image segmentation is the classification of an image into different groups. There are different methods and one of the most popular methods is K-Means clustering algorithm. K-Means clustering algorithm is an unsupervised algorithm and it is used to segment the interest area from the background. It clusters, or partitions the given data into K-clusters or parts based on the K-centroids.
+
+![img.png](ML_DL_Challenge/Day_40/code1.png)
+![img.png](ML_DL_Challenge/Day_40/code2.png)
+![img.png](ML_DL_Challenge/Day_40/plot1.png)
+![img.png](ML_DL_Challenge/Day_40/plot2.png)
