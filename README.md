@@ -476,3 +476,28 @@ Image segmentation is the classification of an image into different groups. Ther
 ![img.png](ML_DL_Challenge/Day_40/code2.png)
 ![img.png](ML_DL_Challenge/Day_40/plot1.png)
 ![img.png](ML_DL_Challenge/Day_40/plot2.png)
+
+---
+### Day 41
+
+Clustering can be used in process of Semi-Supervised Learning. There are some problems where in you might not have any idea about the data and relationships whatsoever with missing labels or no labels at all. So clustering first to find natural segmentation of the data and then create labels is recommended. We can then use per-processed data with labels to develop a semi-supervised classification.
+
+Semi-supervised clustering uses a small amount of labeled data to aid and bias the clustering of unlabeled data. k-means algorithm is one of the approach for Semi-supervised clustering, It proposes a max-distance search approach in order to find some optimal initial cluster centers from unlabeled data, especially when labeled data can’t provide enough initial cluster centers. Experimental results demonstrate the advantages of this method over standard random selection and partial random selection, in which some initial cluster centers come from labeled data while the other come from unlabeled data by random selection.
+
+![img.png](ML_DL_Challenge/Day_41/code1.png)
+![img.png](ML_DL_Challenge/Day_41/code2.png)
+
+---
+### Day 42
+
+Density-Based Clustering refers to unsupervised learning methods that identify distinctive groups/clusters in the data, based on the idea that a cluster in data space is a contiguous region of high point density, separated from other such clusters by contiguous regions of low point density. Density-Based Spatial Clustering of Applications with Noise (DBSCAN) is a base algorithm for density-based clustering. It can discover clusters of different shapes and sizes from a large amount of data, which is containing noise and outliers. The DBSCAN algorithm uses two parameters (minPts and eps (ε)). "minPts" is the minimum number of points (a threshold) clustered together for a region to be considered dense and "eps" is a distance measure that will be used to locate the points in the neighborhood of any point. 
+
+There are several more clustering algorithms like Agglomerative, Birch, Mean-shift, Affinity propagation, Spectral clustering. In Agglomerative a hierarchy of clusters is built from the bottom up and does not scale well to large datasets. Birch is designed specifically for very large datasets, and it can be faster than batch K-Means, with similar results, as long as the number of features is not too large (<20). 
+
+Mean-shift algorithm starts by placing a circle centered on each instance, then for each circle it computes the mean of all the instances located within it, and it shifts the circle so that it is centered on the mean. Unfortunately, its computational complexity is huge, so it is not suited for large datasets. Affinity propagation uses a voting system and finally Spectral clustering algorithm takes a similarity matrix between the instances and creates a low-dimensional embedding from it and then it uses another clustering algorithm in this low-dimensional space.
+
+![img.png](ML_DL_Challenge/Day_42/code1.png)
+![img.png](ML_DL_Challenge/Day_42/code2.png)
+![img.png](ML_DL_Challenge/Day_42/plot.png)
+
+
