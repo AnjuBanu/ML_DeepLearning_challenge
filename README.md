@@ -501,3 +501,13 @@ Mean-shift algorithm starts by placing a circle centered on each instance, then 
 ![img.png](ML_DL_Challenge/Day_42/plot.png)
 
 
+---
+### Day 43
+
+A Gaussian mixture model is a probabilistic model that assumes all the data points are generated from a mixture of a finite number of Gaussian distributions with unknown parameters. Mixture models in general don't require knowing which subpopulation a data point belongs to, allowing the model to learn the subpopulations automatically. Since subpopulation assignment is not known, this constitutes a form of unsupervised learning.
+
+GMMs have been used for feature extraction from speech data, and have also been used extensively in object tracking of multiple objects, where the number of mixture components and their means predict object locations at each frame in a video sequence.
+
+![img.png](ML_DL_Challenge/Day_43/code1.png)
+![img.png](ML_DL_Challenge/Day_43/code2.png)
+![img.png](ML_DL_Challenge/Day_43/plot.png)
