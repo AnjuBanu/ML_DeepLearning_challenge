@@ -511,3 +511,23 @@ GMMs have been used for feature extraction from speech data, and have also been 
 ![img.png](ML_DL_Challenge/Day_43/code1.png)
 ![img.png](ML_DL_Challenge/Day_43/code2.png)
 ![img.png](ML_DL_Challenge/Day_43/plot.png)
+
+
+---
+### Day 44
+
+The Akaike information criterion (AIC) and the Bayesian information criterion (BIC) provide measures of model performance that account for model complexity. AIC and BIC combine a term reflecting how well the model fits the data with a term that penalizes the model in proportion to its number of parameters. The best model in the group compared is the one that minimizes these scores, in both cases. 
+
+AIC = -2*ln(likelihood) + 2*k
+BIC = -2*ln(likelihood) + ln(N)*k
+
+where:
+
+    k = model degrees of freedom
+    N = number of observations
+
+Bayesian Gaussian mixture models constitutes a form of unsupervised learning and can be useful in fitting multi-modal data for tasks such as clustering, data compression, outlier detection, or generative classifiers. Each Gaussian component is usually a multivariate Gaussian with a mean vector and covariance matrix.
+
+![img.png](ML_DL_Challenge/Day_44/code1.png)
+![img.png](ML_DL_Challenge/Day_44/code2.png)
+![img.png](ML_DL_Challenge/Day_44/plot.png)
