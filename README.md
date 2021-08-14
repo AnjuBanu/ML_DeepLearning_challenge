@@ -531,3 +531,29 @@ Bayesian Gaussian mixture models constitutes a form of unsupervised learning and
 ![img.png](ML_DL_Challenge/Day_44/code1.png)
 ![img.png](ML_DL_Challenge/Day_44/code2.png)
 ![img.png](ML_DL_Challenge/Day_44/plot.png)
+
+---
+### Day 44
+
+Perceptron is a single layer neural network and a multi-layer perceptron is called Neural Networks. The perceptron consists of 4 parts: Input values or One input layer, Weights and Bias, Net sum, Activation Function. It is usually used to classify the data into two parts. Therefore, it is also known as a Supervised Learning of single layer binary linear classifiers. Here the optimal weight coefficients are automatically learned. Weights are multiplied with the input features and decision is made if the neuron is fired or not. Activation function applies a step rule to check if the output of the weighting function is greater than zero. Linear decision boundary is drawn enabling the distinction between the two linearly separable classes +1 and -1. If the sum of the input signals exceeds a certain threshold, it outputs a signal; otherwise, there is no output.
+
+The main purpose of an activation function is to add non-linearity to the neural network. The most popular neural networks activation functions are as below
+
+Binary Step / Threshold : Binary step function depends on a threshold value that decides whether a neuron should be activated or not.
+
+Sigmoid / Logistic Activation Function: This function takes any real value as input and outputs values in the range of 0 to 1.
+
+Tanh Function (Hyperbolic Tangent): Tanh function is very similar to the sigmoid/logistic activation function, and even has the same S-shape with the difference in output range of -1 to 1. 
+
+ReLU(Rectified Linear Unit) Function: ReLU function does not activate all the neurons at the same time. The neurons will only be deactivated if the output of the linear transformation is less than 0.
+
+Leaky ReLU Function: Leaky ReLU is an improved version of ReLU function to solve the Dying ReLU problem as it has a small positive slope in the negative area.
+
+Exponential Linear Units (ELUs) Function: ELU uses a log curve to define the negativ values unlike the leaky ReLU and Parametric ReLU functions with a straight line.
+
+Softmax Function: It is described as a combination of multiple sigmoids. It calculates the relative probabilities. Similar to the sigmoid/logistic activation function, the SoftMax function returns the probability of each class. 
+
+![img.png](ML_DL_Challenge/Day_45/code1.png)
+![img.png](ML_DL_Challenge/Day_45/code2.png)
+![img.png](ML_DL_Challenge/Day_45/plot.png)
+
