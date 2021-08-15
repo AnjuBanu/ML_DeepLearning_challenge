@@ -533,7 +533,7 @@ Bayesian Gaussian mixture models constitutes a form of unsupervised learning and
 ![img.png](ML_DL_Challenge/Day_44/plot.png)
 
 ---
-### Day 44
+### Day 45
 
 Perceptron is a single layer neural network and a multi-layer perceptron is called Neural Networks. The perceptron consists of 4 parts: Input values or One input layer, Weights and Bias, Net sum, Activation Function. It is usually used to classify the data into two parts. Therefore, it is also known as a Supervised Learning of single layer binary linear classifiers. Here the optimal weight coefficients are automatically learned. Weights are multiplied with the input features and decision is made if the neuron is fired or not. Activation function applies a step rule to check if the output of the weighting function is greater than zero. Linear decision boundary is drawn enabling the distinction between the two linearly separable classes +1 and -1. If the sum of the input signals exceeds a certain threshold, it outputs a signal; otherwise, there is no output.
 
@@ -557,3 +557,35 @@ Softmax Function: It is described as a combination of multiple sigmoids. It calc
 ![img.png](ML_DL_Challenge/Day_45/code2.png)
 ![img.png](ML_DL_Challenge/Day_45/plot.png)
 
+
+
+---
+### Day 46
+
+The Loss Function is one of the important components of Neural Networks. Loss is nothing but a prediction error of Neural Net. And the method to calculate the loss is called Loss Function. In simple words, the Loss is used to calculate the gradients. And gradients are used to update the weights of the Neural Net.
+
+We have three major categories of Loss functions:
+
+1) Probabilistic Losses
+   - Binary Crossentropy
+   - Categorical Crossentropy
+   - Sparse Categorical Crossentropy
+   - Poisson
+   - Kullback-Leibler Divergence
+   
+2) Regression losses
+   - Mean Squared error
+   - Mean Absolute Error
+   - Mean Absolute percentage error
+   - Mean Squared Logarithmic Error
+   - Cosine Similarity
+   - Huber
+
+3) Hinge Losses
+   - Hinge
+   - Squared Hinge
+   - Categorical Hinge
+
+![img.png](ML_DL_Challenge/Day_46/code1.png)
+![img.png](ML_DL_Challenge/Day_46/code2.png)
+![img.png](ML_DL_Challenge/Day_46/code3.png)
