@@ -615,3 +615,14 @@ Adam: Adam combines the best properties of the AdaGrad and RMSProp algorithms to
 ![img.png](ML_DL_Challenge/Day_47/code2.png)
 ![img.png](ML_DL_Challenge/Day_47/plot.png)
 
+---
+### Day 48
+
+A multilayer perceptron (MLP) is a deep, artificial neural network. It is composed of more than one perceptron. They are composed of an input layer to receive the signal, an output layer that makes a decision or prediction about the input, and in between those two, an arbitrary number of hidden layers that are the true computational engine of the MLP. MLPs with one hidden layer are capable of approximating any continuous function.
+
+Multilayer perceptrons are often applied to supervised learning problems,they train on a set of input-output pairs and learn to model the correlation between those inputs and outputs. Training involves adjusting the parameters, or the weights and biases, of the model in order to minimize error. Backpropagation is used to make those weigh and bias adjustments relative to the error, and the error itself can be measured in a variety of ways.
+
+In the forward pass, the signal flow moves from the input layer through the hidden layers to the output layer, and the decision of the output layer is measured against the ground truth labels. In the backward pass, using backpropagation and the chain rule of calculus, partial derivatives of the error function w.r.t. the various weights and biases are back-propagated through the MLP. 
+
+![img.png](ML_DL_Challenge/Day_48/code.png)
+![img.png](ML_DL_Challenge/Day_48/plot.png)
