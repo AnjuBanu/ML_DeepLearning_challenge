@@ -626,3 +626,22 @@ In the forward pass, the signal flow moves from the input layer through the hidd
 
 ![img.png](ML_DL_Challenge/Day_48/code.png)
 ![img.png](ML_DL_Challenge/Day_48/plot.png)
+
+
+---
+### Day 49
+
+When we have simple models and abundant data, we expect the generalization error to resemble the training error. When we work with more complex models and fewer examples, we expect the training error to go down but the generalization gap to grow. What precisely constitutes model complexity is a complex matter. Many factors govern whether a model will generalize well. For example a model with more parameters might be considered more complex. A model whose parameters can take a wider range of values might be more complex. Often with neural networks, we think of a model that takes more training iterations as more complex, and one subject to early stopping (fewer training iterations) as less complex.
+
+Few factors that tend to influence the generalizability of a model class:
+
+- The number of tunable parameters. When the number of tunable parameters, sometimes called the degrees of freedom, is large, models tend to be more susceptible to overfitting.
+
+- The values taken by the parameters. When weights can take a wider range of values, models can be more susceptible to overfitting.
+
+- The number of training examples. It is trivially easy to overfit a dataset containing only one or two examples even if your model is simple. But overfitting a dataset with millions of examples requires an extremely flexible model.
+
+
+![img.png](ML_DL_Challenge/Day_49/code1.png)
+![img.png](ML_DL_Challenge/Day_49/code2.png)
+![img.png](ML_DL_Challenge/Day_49/plot.png)
