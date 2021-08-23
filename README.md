@@ -659,3 +659,12 @@ The common way to mitigate overfitting is to put constraints on the complexity o
 
 ![img.png](ML_DL_Challenge/Day_50/code.png)
 ![img.png](ML_DL_Challenge/Day_50/plot.png)
+
+---
+### Day 51
+
+Dropout is one of the most effective and most commonly used regularization techniques for neural networks. Dropout, applied to a layer, consists of randomly dropping out (setting to zero) a number of output features of the layer during training. The dropout rate is the fraction of the features that are zeroed out. it’s usually set between 0.2 and 0.5. At test time, no units are dropped out, instead, the layer’s output values are scaled down by a factor equal to the dropout rate, to balance for the fact that more units are active than at training time.
+
+![img.png](ML_DL_Challenge/Day_51/code1.png)
+![img.png](ML_DL_Challenge/Day_51/code2.png)
+![img.png](ML_DL_Challenge/Day_51/plot.png)
