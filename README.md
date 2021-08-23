@@ -645,3 +645,17 @@ Few factors that tend to influence the generalizability of a model class:
 ![img.png](ML_DL_Challenge/Day_49/code1.png)
 ![img.png](ML_DL_Challenge/Day_49/code2.png)
 ![img.png](ML_DL_Challenge/Day_49/plot.png)
+
+
+---
+### Day 50
+
+As per the principle of Occam's razor: given two explanations for something, the explanation most likely to be correct is the simplest one—the one that makes fewer assumptions. This idea also applies to the models learned by neural networks: given some training data and a network architecture, multiple sets of weight values (multiple models) could explain the data. Simpler models are less likely to overfit than complex ones.
+
+The common way to mitigate overfitting is to put constraints on the complexity of a network by forcing its weights to take only small values, which makes the distribution of weight values more regular. This is called weight regularization / weights decay, and it's done by adding to the loss function of the network a cost associated with having large weights. This cost comes in two flavors
+
+- L1 regularization : The cost added is proportional to the absolute value of the weight coefficients (the L1 norm of the weights).
+- L2 regularization : The cost added is proportional to the square of the value of the weight coefficients (the L2 norm of the weights)
+
+![img.png](ML_DL_Challenge/Day_50/code.png)
+![img.png](ML_DL_Challenge/Day_50/plot.png)
