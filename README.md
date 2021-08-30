@@ -668,3 +668,13 @@ Dropout is one of the most effective and most commonly used regularization techn
 ![img.png](ML_DL_Challenge/Day_51/code1.png)
 ![img.png](ML_DL_Challenge/Day_51/code2.png)
 ![img.png](ML_DL_Challenge/Day_51/plot.png)
+
+---
+### Day 52
+
+A Convolutional neural network (CNN) is a neural network that has one or more convolutional layers and are used mainly for image processing, classification, segmentation and also for other auto correlated data. Convolutional networks provide tools for exploiting the local structure of data effectively. Images satisfy certain natural statistical properties. The most common use for CNNs is image classification, for example identifying satellite images that contain roads or classifying hand written letters and digits. There are other quite mainstream tasks such as image segmentation and signal processing, for which CNNs perform well at. CNNs have been used for understanding in Natural Language Processing (NLP) and speech recognition, although often for NLP Recurrent Neural Nets (RNNs) are used.
+
+Each convolutional layer contains a series of filters known as convolutional kernels. The filter is a matrix of integers that are used on a subset of the input pixel values, the same size as the kernel. Each pixel is multiplied by the corresponding value in the kernel, then the result is summed up for a single value for simplicity representing a grid cell, like a pixel, in the output channel/feature map. These are linear transformations, each convolution is a type of affine function.
+
+![img.png](ML_DL_Challenge/Day_52/code1.png)
+![img.png](ML_DL_Challenge/Day_52/code2.png)
