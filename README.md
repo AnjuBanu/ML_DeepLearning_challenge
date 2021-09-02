@@ -678,3 +678,15 @@ Each convolutional layer contains a series of filters known as convolutional ker
 
 ![img.png](ML_DL_Challenge/Day_52/code1.png)
 ![img.png](ML_DL_Challenge/Day_52/code2.png)
+
+---
+### Day 53
+
+Padding is a term relevant to convolutional neural networks as it refers to the amount of pixels added to an image when it is being processed by the kernel of a CNN. For example, if the padding in a CNN is set to zero, then every pixel value that is added will be of value zero. If, however, the zero padding is set to one, there will be a one pixel border added to the image with a pixel value of zero.
+
+Padding works by extending the area of which a convolutional neural network processes an image. The kernel is the neural networks filter which moves across the image, scanning each pixel and converting the data into a smaller, or sometimes larger, format. In order to assist the kernel with processing the image, padding is added to the frame of the image to allow for more space for the kernel to cover the image. Adding padding to an image processed by a CNN allows for more accurate analysis of images. 
+
+Stride is the number of pixels a convolutional filter moves, like a sliding window, after passing on the weighted average value of all the pixels it just covered. The old weighted average value becomes one pixel in the featuremap in the next layer. The next weighted average comes from a new group of pixels and it forms the next pixel in the featuremap in the next layer.
+
+![img.png](ML_DL_Challenge/Day_53/code1.png)
+![img.png](ML_DL_Challenge/Day_53/code2.png)
