@@ -690,3 +690,35 @@ Stride is the number of pixels a convolutional filter moves, like a sliding wind
 
 ![img.png](ML_DL_Challenge/Day_53/code1.png)
 ![img.png](ML_DL_Challenge/Day_53/code2.png)
+
+---
+### Day 54
+
+Pooling is a technique to down sample the feature maps. This has the effect of making the resulting down sampled feature maps more robust to changes in the position of the feature in the image, referred to by the technical phrase “local translation invariance.”
+
+Pooling layers provide an approach to down sampling feature maps by summarizing the presence of features in patches of the feature map. Two common pooling methods are average pooling and max pooling that summarize the average presence of a feature and the most activated presence of a feature respectively.
+
+A pooling layer is a new layer added after the convolutional layer. Specifically, after a non linearity has been applied to the feature maps output by a convolutional layer; for example the layers in a model may look as follows:
+
+   - Input Image
+   - Convolutional Layer
+   - Non linearity
+   - Pooling Layer
+
+Two common functions used in the pooling operation are:
+
+   - Average Pooling: Calculate the average value for each patch on the feature map.
+   - Maximum Pooling (or Max Pooling): Calculate the maximum value for each patch of the feature map.
+
+![img.png](ML_DL_Challenge/Day_54/code1.png)
+![img.png](ML_DL_Challenge/Day_54/code2.png
+
+---
+### Day 55
+
+CNN has multiple filters stacked together that learn to recognize specific visual features independently from the location in the image itself. Those visual features are simple in the initial layers of the network and become more and more sophisticated deeper in the network. Training of a CNN requires the identification of the right values for each filter so that an input, when passed through multiple layers, activates certain neurons of the last layer so that it will predict the correct values.
+
+Yann LeCun, created a family of convnets named LeNet trained for recognizing MNIST handwritten characters with robustness to simple geometric transformations and distortion. The core idea of LeNets is to have lower layers alternating convolution operations with max-pooling operations. The convolution operations are based on carefully chosen local receptive fields with shared weights for multiple feature maps. Then, higher levels are fully connected based on a traditional MLP with hidden layers and softmax as output layer.
+
+![img.png](ML_DL_Challenge/Day_55/code1.png)
+![img.png](ML_DL_Challenge/Day_55/code2.png
