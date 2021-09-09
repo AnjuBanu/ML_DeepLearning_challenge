@@ -711,7 +711,7 @@ Two common functions used in the pooling operation are:
    - Maximum Pooling (or Max Pooling): Calculate the maximum value for each patch of the feature map.
 
 ![img.png](ML_DL_Challenge/Day_54/code1.png)
-![img.png](ML_DL_Challenge/Day_54/code2.png
+![img.png](ML_DL_Challenge/Day_54/code2.png)
 
 ---
 ### Day 55
@@ -721,4 +721,4 @@ CNN has multiple filters stacked together that learn to recognize specific visua
 Yann LeCun, created a family of convnets named LeNet trained for recognizing MNIST handwritten characters with robustness to simple geometric transformations and distortion. The core idea of LeNets is to have lower layers alternating convolution operations with max-pooling operations. The convolution operations are based on carefully chosen local receptive fields with shared weights for multiple feature maps. Then, higher levels are fully connected based on a traditional MLP with hidden layers and softmax as output layer.
 
 ![img.png](ML_DL_Challenge/Day_55/code1.png)
-![img.png](ML_DL_Challenge/Day_55/code2.png
+![img.png](ML_DL_Challenge/Day_55/code2.png)
