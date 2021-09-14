@@ -722,3 +722,15 @@ Yann LeCun, created a family of convnets named LeNet trained for recognizing MNI
 
 ![img.png](ML_DL_Challenge/Day_55/code1.png)
 ![img.png](ML_DL_Challenge/Day_55/code2.png)
+
+---
+### Day 56
+
+CIFAR-10 dataset contains 60,000 color images of 32×32 pixels in 3 channels, divided in 10 classes. Each class contains 6,000 images. The training set contains 50,000 images, while the test sets provides 10,000 images. The goal is to recognize previously unseen images and assign them to one of the 10 classes.
+
+covnet will learn 32 convolutional filters, each with a 3×3 size. The output dimension is the same one as the input shape, so it will be 32×32 and the activation function used is a ReLU function, which is a simple way of introducing non-linearity. After that we have a max pooling operation with pool size 2×2 and a Dropout of 25%
+
+The next stage in the deep pipeline is a dense network with 512 units and ReLU activation followed by a dropout at 50% and by a softmax layer with 10 classes as output, one for each category
+
+![img.png](ML_DL_Challenge/Day_56/code1.png)
+![img.png](ML_DL_Challenge/Day_56/code2.png)
