@@ -734,3 +734,20 @@ The next stage in the deep pipeline is a dense network with 512 units and ReLU a
 
 ![img.png](ML_DL_Challenge/Day_56/code1.png)
 ![img.png](ML_DL_Challenge/Day_56/code2.png)
+
+---
+### Day 57
+
+One way to improve the performance is to define a deeper network with multiple convolutional operations. In the following example we have a sequence of modules:
+
+1st module: (CONV+CONV+MaxPool+DropOut)
+2nd: module: (CONV+CONV+MaxPool+DropOut)
+3rd module: (CONV+CONV+MaxPool+DropOut)
+
+These are followed by a standard dense output layer. All the activation functions used are ReLU functions and also there is a new layer for batch normalisation.
+
+![img.png](ML_DL_Challenge/Day_57/code1.png)
+![img.png](ML_DL_Challenge/Day_57/code2.png)
+
+
+
